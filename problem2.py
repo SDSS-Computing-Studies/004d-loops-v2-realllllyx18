@@ -7,4 +7,4 @@ y=1
 
 for i in range(1,x+1):
    y=y*i
-print(number+"!"+" "+"is"+" "+str(y))
+print(number.strip()+"!"+" "+"is"+" "+str(y))
