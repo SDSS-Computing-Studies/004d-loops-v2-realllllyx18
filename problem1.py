@@ -1,10 +1,9 @@
   
 #! python
 
-integer1=input("Enter the width")
-integer2=input("Enter the length")
-w=int(integer1)
-h=int(integer2)
+integer=input("Enter the width and length")
 
-for i in range (1,h+1):
+w=int(integer)
+
+for i in range (1,w+1):
    print("*"*w)
