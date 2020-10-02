@@ -1,9 +1,7 @@
 #! python
 
-integer1=input("Enter the width")
-integer2=input("Enter the length")
-w=int(integer1)
-h=int(integer2)
+integer=(input("Enter an integer")).strip()
 
-for i in range (1,h+1):
-   print("*"*w)
+for i in range(1,13):
+    z=int(integer)*i
+    print(z,end=""+" ")
