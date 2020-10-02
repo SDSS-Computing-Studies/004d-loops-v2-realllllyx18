@@ -1,17 +1,10 @@
 #! python
 
 name=input("Enter a name")
-players = ("Guile", "Cammy", "Ryu", "Ken", "Chun-Li")
-
-for x in players:
-    print("Match")
-    if x=="Guile":
+nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+for x in nameList:
+    if x==name:
+        print("That name is on the list")
         break
-    if x=="Cammy":
-        break
-    if x=="Ryu":
-        break
-    if x=="Ken":
-        break
-    if x=="Chun-Li":
-        break
+if x!=name:
+        print("That name is not in the list")
