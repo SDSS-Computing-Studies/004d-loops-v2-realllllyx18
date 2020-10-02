@@ -1,7 +1,7 @@
 #! python
 
-series=(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
+numList = (25, 8, 10, 11, 33, 30, 51, 75, 63, 14, 20, 99)
 
-for x in series:
+for x in numList:
     if x%5==0:
         print(x)
