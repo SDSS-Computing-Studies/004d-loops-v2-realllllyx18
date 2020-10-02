@@ -1,4 +1,4 @@
-#! python3
+#! python
 
 integer1=input("Enter the width")
 integer2=input("Enter the length")
