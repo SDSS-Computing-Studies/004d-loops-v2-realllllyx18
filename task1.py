@@ -3,5 +3,4 @@
 integer=(input("Enter an integer")).strip()
 
 for i in range(1,13):
-    z=int(integer)*i
-    print(z)
+    print(int(integer)*i,end=""+" ")
