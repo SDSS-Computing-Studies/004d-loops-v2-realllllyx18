@@ -1,4 +1,4 @@
-#! python3
+#! python
 
 number=input("Enter a number")
 x=int(number)
