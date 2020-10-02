@@ -3,5 +3,5 @@
 integer=(input("Enter an integer")).strip()
 
 for i in range(1,13):
-    z=float(integer)*i
+    z=int(integer)*i
     print(z)
