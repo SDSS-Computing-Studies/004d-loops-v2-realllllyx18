@@ -1,4 +1,4 @@
-#! python3
+#! python
 
 number=input("Enter an integer that is smaller than 10:")
 x=int(number)
